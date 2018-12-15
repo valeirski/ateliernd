@@ -1,0 +1,152 @@
+html {
+  background-image: url('../img/background.jpg');
+}
+body {
+  margin:0;
+}
+a {
+  text-decoration: none;
+  color:#000;
+}
+.logo {
+  margin: auto;
+  padding-top: 130px;
+}
+.logo > img {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  display: block;
+  width: 980px;
+  height: 338px;
+}
+.title1 {
+  text-align: center;
+  padding-top: 80px;
+}
+.title1 > h2 {
+  font-size:21px;
+  color: #000;
+  font-family: 'Abel', sans-serif;
+}
+.title {
+  color: #000;
+  font-family: 'Abel', sans-serif;
+  text-align: center;
+  padding-top: 40px;
+  font-weight: 200;
+}
+.title > h2 {
+  color: #000;
+  font-size:50px;
+  font-family: 'Abel', sans-serif;
+}
+.icon-links {
+  margin:0;
+}
+.copy {
+  color:#000;
+  font-family: 'Abel', sans-serif;
+  font-size: 14px;
+  margin:0;
+  text-align: center;
+  width:100%;
+  padding-top: 30px;
+}
+.copy > a {
+  text-decoration: none;
+  color:#000;
+  font-family: 'Abel', sans-serif;
+}
+.logo-parent {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.vbworks {
+  background-image: url('../img/favicon-64x64.png');
+  height: 20px;
+  width: 19px;
+  background-size:cover;
+}
+.vbworks:hover {
+  background-image: url('../img/favicongrey-64x64.png');
+}
+.phone {
+  margin: 0;
+  display: flex;
+  align-items:center;
+  padding-top: 10px;
+  float: left;
+}
+.phone > img {
+  width: 30px;
+  height: 30px;
+  margin: 0;
+}
+.phone > a {
+  margin:0;
+  color:#000;
+  font-family: 'Abel', sans-serif;
+  font-size: 17px;
+  padding-left: 10px;
+}
+.banner-top {
+  width: 980px;
+  margin:0 auto;
+}
+.social {
+  padding-top: 10px;
+  margin: 0;
+  display: flex;
+  align-items:center;
+  float: right;
+}
+.social > a {
+  padding-left: 15px;
+}
+.centered-map {
+  display: flex;
+  justify-content: center;
+}
+#map {
+  height: 280px;
+  width: 980px;
+}
+.popup-tip-anchor {
+  height: 0;
+  position: absolute;
+  width: 200px;
+}
+.popup-bubble-anchor {
+  position: absolute;
+  width: 100%;
+  bottom: 10px;
+  left: 0;
+}
+.popup-bubble-anchor::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, 0);
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 8px solid white;
+}
+.popup-bubble-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -100%);
+  background-color: white;
+  padding: 5px;
+  border-radius: 5px;
+  font-family: sans-serif;
+  overflow-y: auto;
+  max-height: 60px;
+  box-shadow: 0px 2px 10px 1px rgba(0,0,0,0.5);
+}
